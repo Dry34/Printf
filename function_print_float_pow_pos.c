@@ -5,7 +5,7 @@
 ** printf avec seulement certain parametre
 */
 
-#include "../include/my_struct.h"
+#include "include/my_struct.h"
 
 int print_float_pow_compt(double nb, long long int result, int tab_intpow);
 double print_float_pow_inf(double *nb, int tab_intpow);

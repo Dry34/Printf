@@ -4,7 +4,7 @@
 ** File description:
 ** ecrit une chaine de carac en hexa
 */
-#include "../include/my_struct.h"
+#include "include/my_struct.h"
 #include <stdio.h>
 
 int my_showstr (char const * str, unsigned int count)

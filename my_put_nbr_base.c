@@ -5,7 +5,7 @@
 ** affiche le nombre donnée
 */
 
-#include "../include/my_struct.h"
+#include "include/my_struct.h"
 #include<stdio.h>
 
 int my_putnbr_base(long long int nb, char const *base)

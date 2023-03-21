@@ -6,7 +6,7 @@
 */
 
 #include <unistd.h>
-#include "../include/my_struct.h"
+#include "include/my_struct.h"
 
 int test_min(char const *str, int i, int n)
 {

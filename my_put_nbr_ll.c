@@ -6,23 +6,23 @@
 */
 
 #include<unistd.h>
-#include "../include/my_struct.h"
+#include "include/my_struct.h"
 
-int my_put_nbr(int nb)
+int my_put_nbr_ll(long long int nb)
 {
-    if (nb == 0x80000000) {
-        my_putstr("-2147483648");
+    if (nb == LLONG_MIN) {
+        my_putstr("-9223372036854775808");
         return 0;
     }
     if (nb < 0){
         my_putchar('-');
-        return (my_put_nbr(-1 *nb));
+        return (my_put_nbr_ll(-1 *nb));
     }
     if (nb <= 9){
         my_putchar(nb + '0');
         return 0;
     }
-    my_put_nbr(nb / 10);
+    my_put_nbr_ll(nb / 10);
     my_putchar((nb % 10) + '0');
     return 0;
 }

@@ -13,18 +13,18 @@ SRC = function_1_print.c \
 	function_4_print.c \
 	function_6_print.c \
 	print_under_fonc.c \
-	lib/function_print_float_pow_null.c \
-	lib/function_print_float_pow_pos.c \
+	function_print_float_pow_null.c \
+	function_print_float_pow_pos.c \
 	my_printf.c \
-	lib/my_put_nbr.c \
-	lib/my_putchar.c \
-	lib/my_putstr.c \
-	lib/my_strlen.c \
-	lib/my_put_nbr_base.c \
-	lib/my_showstr.c \
-	lib/my_put_nbr_ll.c \
-	lib/my_getnbr.c \
-	lib/my_compute_power_rec.c
+	my_put_nbr.c \
+	my_putchar.c \
+	my_putstr.c \
+	my_strlen.c \
+	my_put_nbr_base.c \
+	my_showstr.c \
+	my_put_nbr_ll.c \
+	my_getnbr.c \
+	my_compute_power_rec.c
 
 OBJ = $(SRC:.c=.o)
 
