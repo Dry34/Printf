@@ -6,7 +6,7 @@ Reproduire intégralement la fonction printf du language c ainsi que tout ses fl
 ***
 Ce projet se permet de créer une librairie nommée libmy.a contenant le nécessaire pour le printf.
 
-    $ git clone https://github.com/EpitechPromo2027/B-CPE-101-MPL-1-1-myprintf-thomas.janiaut.git
+    $ git clone git@github.com:Dry34/Printf.git
 
 Puis dans le programme ou vous souhaitez l'utiliser :
 
